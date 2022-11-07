@@ -1,0 +1,475 @@
+﻿building_urban_center = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/urban_center.dds"
+	city_type = city
+	residence_points_per_level = 0
+	unlocking_technologies = { 
+		urbanization
+	}
+	production_method_groups = {
+		pmg_amenities
+		pmg_street_lighting
+		pmg_public_transport
+		pmg_urban_clergy
+		pmg_martian_transport
+	}
+	buildable = no
+	expandable = no
+	downsizeable = no
+	terrain_manipulator = urban_city
+}
+
+building_martian_oil = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		pumpjacks
+	}
+	production_method_groups = {
+		pmg_base_building_oil_rig
+		pmg_transportation_building_oil_rig
+		pmg_ownership_capital_building_oil_rig
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_coal = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/coal_mine.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		shaft_mining
+	}
+	production_method_groups = {
+		pmg_mining_equipment_building_coal_mine
+		pmg_explosives_building_coal_mine
+		pmg_steam_automation_building_coal_mine
+		pmg_train_automation_building_coal_mine
+		pmg_ownership_capital_building_coal_mine
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_sulfur = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/sulfur_mine.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		shaft_mining
+	}
+	production_method_groups = {
+		pmg_mining_equipment_building_sulfur_mine
+		pmg_explosives_building_sulfur_mine
+		pmg_steam_automation_building_sulfur_mine
+		pmg_train_automation_building_sulfur_mine
+		pmg_ownership_capital_building_sulfur_mine
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+#building_martian_gold = {
+#	building_group = martian_industry
+#	texture = "gfx/interface/icons/building_icons/gold_mine.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	unlocking_technologies = {
+#		prospecting
+#	}
+#	production_method_groups = {
+#		pmg_mining_equipment_building_gold_mine
+#		pmg_explosives_building_gold_mine
+#		pmg_steam_automation_building_gold_mine
+#		pmg_train_automation_building_gold_mine
+#		pmg_ownership_capital_building_gold_mine
+#		pmg_martian
+#	}
+#	required_construction = construction_cost_medium
+#}
+
+building_martian_iron = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		shaft_mining
+	}
+	production_method_groups = {
+		pmg_mining_equipment_building_iron_mine
+		pmg_explosives_building_iron_mine
+		pmg_steam_automation_building_iron_mine
+		pmg_train_automation_building_iron_mine
+		pmg_ownership_capital_building_iron_mine
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_lead = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/lead_mine.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		shaft_mining
+	}
+	production_method_groups = {
+		pmg_mining_equipment_building_lead_mine
+		pmg_explosives_building_lead_mine
+		pmg_steam_automation_building_lead_mine
+		pmg_train_automation_building_lead_mine
+		pmg_ownership_capital_building_lead_mine
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_logging = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	city_type = city
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_building_logging_camp
+		pmg_hardwood
+		pmg_equipment
+		pmg_transportation_building_logging_camp
+		pmg_ownership_capital_building_logging_camp
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_rubber = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		rubber_mastication
+	}
+	production_method_groups = {
+		pmg_base_building_rubber_plantation
+		pmg_train_automation_building_rubber_plantation
+		pmg_ownership_land_building_rubber_plantation
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+#building_martian_wheat = {
+#	building_group = martian_industry
+#	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	unlocking_technologies = {
+#		enclosure
+#	}
+#	production_method_groups = {
+#		pmg_base_building_wheat_farm
+#		pmg_secondary_building_wheat_farm
+#		pmg_harvesting_process_building_wheat_farm
+#		pmg_ownership_land_building_wheat_farm
+#		pmg_martian
+#	}
+#	required_construction = construction_cost_medium
+#}
+
+building_martian_grain = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_wheat_farm
+		pmg_secondary_building_grain_farm
+		pmg_tertiary_building_grain_farm
+		pmg_harvesting_process_building_wheat_farm
+		pmg_ownership_land_building_wheat_farm
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+#building_martian_rice = {
+#	building_group = martian_industry
+#	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	unlocking_technologies = {
+#		enclosure
+#	}
+#	production_method_groups = {
+#		pmg_base_building_rice_farm
+#		pmg_secondary_building_rice_farm
+#		pmg_harvesting_process_building_rice_farm
+#		pmg_ownership_land_building_rice_farm
+#		pmg_martian
+#	}
+#	required_construction = construction_cost_medium
+#}
+
+#building_martian_maize = {
+#	building_group = martian_industry
+#	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	unlocking_technologies = {
+#		enclosure
+#	}
+#	production_method_groups = {
+#		pmg_base_building_maize_farm
+#		pmg_secondary_building_maize_farm
+#		pmg_harvesting_process_building_maize_farm
+#		pmg_ownership_land_building_maize_farm
+#		pmg_martian
+#	}
+#	required_construction = construction_cost_medium
+#}
+
+building_martian_livestock = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_slaughtering
+		pmg_fencing
+		pmg_refrigeration_building_livestock_ranch
+		pmg_ownership_land_building_livestock_ranch
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+#building_martian_millet = {
+#	building_group = martian_industry
+#	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	unlocking_technologies = {
+#		enclosure
+#	}
+#	production_method_groups = {
+#		pmg_base_building_millet_farm
+#		pmg_secondary_building_millet_farm
+#		pmg_harvesting_process_building_millet_farm
+#		pmg_ownership_land_building_millet_farm
+#		pmg_martian
+#	}
+#	required_construction = construction_cost_medium
+#}
+
+#building_martian_rye = {
+#	building_group = martian_industry
+#	texture = "gfx/interface/icons/building_icons/rye_farm.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	unlocking_technologies = {
+#		enclosure
+#	}
+#	production_method_groups = {
+#		pmg_base_building_rye_farm
+#		pmg_secondary_building_rye_farm
+#		pmg_harvesting_process_building_rye_farm
+#		pmg_ownership_land_building_rye_farm
+#		pmg_martian
+#	}
+#	required_construction = construction_cost_medium
+#}
+
+building_martian_silk = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/silk_plantation.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_silk_plantation
+		pmg_train_automation_building_silk_plantation
+		pmg_ownership_land_building_silk_plantation
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_coffee = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_coffee_plantation
+		pmg_train_automation_building_coffee_plantation
+		pmg_ownership_land_building_coffee_plantation
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_dye = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/dye_plantation.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_dye_plantation
+		pmg_train_automation_building_dye_plantation
+		pmg_ownership_land_building_dye_plantation
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_cotton = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/cotton_plantation.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_cotton_plantation
+		pmg_train_automation_building_cotton_plantation
+		pmg_ownership_land_building_cotton_plantation
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_tobacco = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/tobacco_plantation.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_tobacco_plantation
+		pmg_train_automation_building_tobacco_plantation
+		pmg_ownership_land_building_tobacco_plantation
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_sugar = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/sugar_plantation.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_sugar_plantation
+		pmg_train_automation_building_sugar_plantation
+		pmg_ownership_land_building_sugar_plantation
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_tea = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/tea_plantation.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_tea_plantation
+		pmg_train_automation_building_tea_plantation
+		pmg_ownership_land_building_tea_plantation
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_banana = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/banana_plantation.dds"
+	city_type = city
+	levels_per_mesh = 5
+	unlocking_technologies = {
+		enclosure
+	}
+	production_method_groups = {
+		pmg_base_building_banana_plantation
+		pmg_train_automation_building_banana_plantation
+		pmg_ownership_land_building_banana_plantation
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+#building_martian_opium = {
+#	building_group = martian_industry
+#	texture = "gfx/interface/icons/building_icons/opium_plantation.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	unlocking_technologies = {
+#		enclosure
+#	}
+#	production_method_groups = {
+#		pmg_base_building_opium_plantation
+#		pmg_train_automation_building_opium_plantation
+#		pmg_ownership_land_building_opium_plantation
+#		pmg_martian
+#	}
+#		#error_check = {
+#		#	severity = fail
+#		#	owner = { NOT = { is_banning_goods = g:opium } }
+#		#}
+#	}
+#	required_construction = construction_cost_medium
+#}
+
+building_martian_fishing = {
+	building_group = martian_industry
+	texture = "gfx/interface/icons/building_icons/fishing_wharf.dds"
+	city_type = city
+	levels_per_mesh = 5
+	production_method_groups = {
+		pmg_base_building_fishing_wharf
+		pmg_refrigeration_building_fishing_wharf
+		pmg_ownership_capital_building_fishing_wharf
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}
+
+building_martian_railway = {
+	building_group = martian_infrastructure
+	texture = "gfx/interface/icons/building_icons/building_railway.dds"
+	production_method_groups = {
+		martian_railway
+		pmg_martian
+	}
+	required_construction = construction_cost_medium
+}

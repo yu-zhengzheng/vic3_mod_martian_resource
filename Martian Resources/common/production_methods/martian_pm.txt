@@ -1,0 +1,160 @@
+﻿xukong_chuansong = {
+	texture = "gfx/interface/icons/production_method_icons/trains_steam.dds"
+	pollution_generation = 15
+
+	building_modifiers = {
+		workforce_scaled = {
+		building_output_transportation_add = 50
+		}
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 20
+		}
+	}
+}
+
+pm_spaceship = {
+	texture = "gfx/spaceship.dds"
+
+	pollution_generation = 0
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_output_services_add = -2
+			building_output_spaceship_add = 1
+		}
+
+		level_scaled = {
+		}
+
+		throughput_scaled = {
+		}
+
+		unscaled = {
+		}
+	}
+
+	country_modifiers = {
+	}
+
+	timed_modifiers = {
+	}
+}
+
+
+pm_martian = {
+	texture = "gfx/spaceship.dds"
+
+	pollution_generation = 0
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_spaceship_add = 5
+		}
+
+		level_scaled = {
+		}
+
+		throughput_scaled = {
+		}
+
+		unscaled = {
+		}
+	}
+
+	country_modifiers = {
+	}
+
+	timed_modifiers = {
+	}
+}
+
+pm_no_alcohol = {
+	texture = "gfx/interface/icons/production_method_icons/no_orchards.dds"
+}
+
+pm_martian_vineyards = {
+	texture = "gfx/interface/icons/production_method_icons/vineyards.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_grain_add = 5
+			building_output_grain_add = -15
+			building_output_wine_add = 10
+			building_employment_shopkeepers_add = 200
+		}
+	}
+}
+
+pm_martian_potatoes = {
+	texture = "gfx/interface/icons/production_method_icons/potatoes.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_grain_add = 5
+			building_output_grain_add = -15
+			building_output_liquor_add = 15
+		}
+	}
+}
+
+pm_martian_alcohol = {
+	texture = "gfx/interface/icons/production_method_icons/vineyards.dds"
+	unlocking_production_methods = {
+		pm_soil_enriching_farming
+		pm_fertilization
+		pm_chemical_fertilizer
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_grain_add = 5
+			building_output_grain_add = -35
+			building_output_wine_add = 10
+			building_output_liquor_add = 15
+			building_employment_shopkeepers_add = 200
+		}
+	}
+}
+
+pm_martian_apple_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/orchards.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_grain_add = 5
+			building_output_grain_add = -15
+			building_output_fruit_add = 10
+			building_output_sugar_add = 5
+		}
+	}
+}
+
+pm_martian_fig_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/orchards.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_grain_add = -15
+			building_output_fruit_add = 6
+			building_output_sugar_add = 9
+		}
+	}
+}	
+
+pm_martian_citrus_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/orchards.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_grain_add = 5
+			building_output_grain_add = -15
+			building_output_fruit_add = 9
+			building_output_sugar_add = 6
+		}
+	}
+}
+
+
