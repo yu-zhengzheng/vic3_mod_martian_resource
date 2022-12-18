@@ -1,9 +1,0 @@
-texticon = {
-	icon = spaceship
-	iconsize = {
-		texture = "gfx/spaceship.dds"
-		size = { 25 25 }
-		offset = { 0 7 }
-		fontsize = 18
-	}
-}

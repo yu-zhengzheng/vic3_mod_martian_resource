@@ -1,8 +1,0 @@
-﻿building_output_spaceship_add = {
-	good = yes
-	percent = no
-}
-building_input_spaceship_add = {
-	good = yes
-	percent = no
-}
