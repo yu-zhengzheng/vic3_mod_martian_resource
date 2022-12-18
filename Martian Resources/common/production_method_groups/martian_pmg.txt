@@ -1,0 +1,44 @@
+﻿#xukong_railway = {
+#	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+#	ai_selection = most_productive
+#	production_methods = {
+#		xukong_chuansong
+#	}
+#}
+
+pmg_martian_transport = {
+	texture = "gfx/spaceship.dds"
+	production_methods = {
+		pm_spaceship
+	}
+}
+
+pmg_martian = {
+	texture = "gfx/spaceship.dds"
+	production_methods = {
+		pm_martian
+	}
+}
+
+pmg_secondary_building_grain_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_secondary
+		pm_martian_citrus_orchards
+		pm_martian_fig_orchards
+		pm_martian_apple_orchards
+	}
+}
+
+pmg_tertiary_building_grain_farm = {
+	texture = "gfx/interface/icons/production_method_icons/potatoes.dds"
+	
+	production_methods = {
+		pm_no_alcohol
+		#pm_vineyards
+		#pm_potatoes
+		pm_martian_vineyards
+		pm_martian_potatoes
+		pm_martian_alcohol
+	}
+}
